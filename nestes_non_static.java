@@ -24,3 +24,15 @@ class Car {
         }
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+
+        Car car = new Car("BMW", "X5");
+
+        // IMPORTANT : on doit passer par l’objet car
+        Car.Motor motor = car.new Motor(300);
+
+        motor.printInfo();
+    }
+}
