@@ -1,0 +1,29 @@
+🔹 1️⃣ Zéro paramètre → Parenthèses OBLIGATOIRES
+
+() -> System.out.println("Hello");
+
+
+🔹2️⃣ Un seul paramètre → Parenthèses OPTIONNELLES
+
+x -> x * 2
+(x) -> x * 2
+
+🔹 3️⃣ Plusieurs paramètres → Parenthèses OBLIGATOIRES
+
+(a, b) -> a + b
+
+🔥 Si tu mets les types
+
+(Integer x) -> x * 2
+
+
+
+
+
+t -> { return 2 * t; }
+
+
+(int i) -> {
+    i++;
+    return i;
+}
