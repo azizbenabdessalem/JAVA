@@ -36,12 +36,4 @@ public class Main {
     }
 }
 
-public class Main {
-    public static void main(String[] args) {
 
-        // On peut créer Motor sans créer Car
-        Car.Motor m1 = new Car.Motor(300);
-
-        m1.printInfo();
-    }
-}
