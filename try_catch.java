@@ -17,5 +17,8 @@ public class Main {
     }
 } 
 
-La genre, quand il ya une erreur le programme ne s'arrete pas mais on va récupérrer l'erreur qui va aller dans le catch et apres on va afficher ce qu'il ya à l'intérieur du catch
+La genre, quand il ya une erreur le programme ne s'arrete pas mais on va récupérrer 
+l'erreur qui va aller dans le catch et apres on va afficher ce qu'il ya à l'intérieur du catch
+
+On est obligé de soit mettre catch ou finally avec un try
   
