@@ -9,3 +9,5 @@ public class Main {
     }
 
 }
+
+Throws sert a dire qu'une méthode peut créer une erreur
