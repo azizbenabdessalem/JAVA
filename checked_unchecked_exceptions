@@ -1,0 +1,15 @@
+Throwable
+   │
+   ├── Error
+   │
+   └── Exception
+        │
+        ├── RuntimeException → UNCHECKED (qui ne dérivent pas Error ou RunTuleException)  Ici Java ne te demandent pas de prédire l'erreur
+        │     NullPointerException
+        │     ArithmeticException
+        │     NumberFormatException
+        │
+        └── autres Exception → CHECKED (qui ne dérivent pas Error ou RunTuleException) Ici Jave oblige de prévoir l'erreur 
+              IOException
+              SQLException
+              InterruptedException
