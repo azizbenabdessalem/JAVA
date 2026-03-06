@@ -15,3 +15,4 @@ public class Main {
 }
 
 Ca arrete le code et ca donne un commentaire a un commentaire a des exceptions
+    Tu crees et lance l'erreur
