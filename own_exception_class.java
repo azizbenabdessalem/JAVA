@@ -22,7 +22,7 @@ public class Main {
 
 
 
-class MyException extends Exception {
+static class MyException extends Exception {
 
     public MyException(String message) {
         super(message);
