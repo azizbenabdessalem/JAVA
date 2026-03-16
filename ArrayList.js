@@ -38,7 +38,23 @@ public class ListMain {
         // Replacing element at index 0
         list1.set(0, 50);
 
+
         // Printing final list1
         System.out.println("list1: " + list1);
     }
 }
+
+
+        ---------------------------------------------------------------------------
+
+            List <String> list = new ArrayList<String>() ;
+
+        list.add("Banana") ;
+        list.add("Apple");
+        list.add("Mango");
+
+System.out.println("Before Sorting : " +list ) ;
+Collections.sort(list) ;   ------> 
+System.out.println("After Sorting : " + list) ;
+        
+        
