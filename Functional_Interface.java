@@ -12,3 +12,8 @@ public class Demo {
     } ;
 
 }
+
+
+
+EN Gros, functional interface cest une interface avec une seule méthode abstraite. 
+    Et anonymous class, c'est la méthode avec laquelle on peut instancier une functional interface . 
