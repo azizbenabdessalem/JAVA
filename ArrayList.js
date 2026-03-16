@@ -54,7 +54,8 @@ public class ListMain {
         list.add("Mango");
 
 System.out.println("Before Sorting : " +list ) ;
-Collections.sort(list) ;   ------> 
+Collections.sort(list) ;   ------> Pour trier nombres ou chiffres 
+Collections.sort(list, Collections.reverseOrder() ) ; ----> Trier dans l'ordre décroissant 
 System.out.println("After Sorting : " + list) ;
         
         
